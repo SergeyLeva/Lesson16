@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="2"
+    android:rowCount="3"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtonCow"
+        android:layout_width="196dp"
+        android:layout_height="211dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cow" />
+
+    <ImageButton
+        android:id="@+id/imageButtonChicken"
+        android:layout_width="213dp"
+        android:layout_height="210dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/chicken" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCat"
+        android:layout_width="198dp"
+        android:layout_height="263dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cat" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDuck"
+        android:layout_width="204dp"
+        android:layout_height="263dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo4"
+        android:scaleType="fitCenter"
+        android:src="@drawable/duck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSheep"
+        android:layout_width="194dp"
+        android:layout_height="253dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo5"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sheep" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDog"
+        android:layout_width="214dp"
+        android:layout_height="265dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo6"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dog" />
+
+</GridLayout>
